@@ -30,3 +30,7 @@ def details(request, id):
     'mymember': mymember,
   }
   return HttpResponse(template.render(context, request))  
+
+
+
+  
